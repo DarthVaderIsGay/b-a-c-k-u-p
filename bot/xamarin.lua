@@ -241,7 +241,9 @@ function create_config( )
       "spam",
       "spanish_lang",
       "version",
-      "italian_lang"
+      "italian_lang",
+      "portuguese_lang",
+      "arabic"
      },
     sudo_users = {119626024,0,tonumber(our_id)},
     admin_users = {},
