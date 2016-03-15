@@ -1,4 +1,4 @@
-Xamarin Plus (Zamarin Plus)
+DeadBot
 ============
 
 A Telegram Bot based on plugins using [tg](https://github.com/vysheng/tg).
