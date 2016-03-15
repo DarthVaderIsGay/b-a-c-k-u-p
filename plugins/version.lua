@@ -1,22 +1,15 @@
---------------------------------------------------
---                                              --
---            Developer: @AmirDark              --
---             Support: @DarkTeam               --
---                                              --
---------------------------------------------------
-
 do
 
 function run(msg, matches)
-  return '⚡️ Xamarin Plus Bot v1.0\n    \n  📢 Channel : @DarkTeam\n  👤 Admin : @AmirDark\n  \n  🙏 Special Thanks to :\n  \n        @PokerFace_Dev\n        @ShahabDark\n        @MR_Flat\n        @Sinaw1\n  \n Checkout yeo.ir/XamarinPlus\n' 
+  return 'DeadBot v3.1\n    \n  📢 Channel : @DeadBot_Support\n  👤 Admin : @B_N_K\n  \n   Special Thanks to :\n  \n        @imandaneshi\n        @seyedan\n /DeadBot\n' 
 end
 
 return {
   patterns = {
-    "^[!#/]xamarinplus$",
-    "^xamarinplus$",
-    "^[!#/]xamarin$",
-    "^xamarin$",
+    "^[!#/]deadbot$",
+    "^DeadBot$",
+    "^[!#/]Deadbot$",
+    "^deadbot$",
     "^[!#/]version$",
     "^version$"
   }, 
