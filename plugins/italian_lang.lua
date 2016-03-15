@@ -1,17 +1,3 @@
---------------------------------------------------
---      ____  ____ _____                        --
---     |    \|  _ )_   _|___ ____   __  __      --
---     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
---     |____/|____/ |_|\____/\_____|_/\/\_|     --
---                                              --
---------------------------------------------------
---                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
---                                              --
---           Translated by: @baconnn            --
---                                              --
---------------------------------------------------
 
 local LANG = 'it'
 
@@ -323,12 +309,12 @@ local function run(msg, matches)
 		set_text(LANG, 'rules:1', '#rules: mostra le regole della chat.')
 
 		if matches[1] == 'install' then
-			return 'ℹ️¸ L\'italiano è stato installato come lingua del bot.'
+			return '✴¸ L\'italiano è stato installato come lingua del bot.'
 		elseif matches[1] == 'update' then
-			return 'ℹ️ Stringhe italiane aggiornate.'
+			return '✴ Stringhe italiane aggiornate.'
 		end
 	else
-		return "ℹ️ Questo plugin richiede i privilegi di sudo."
+		return "✴ Questo plugin richiede i privilegi di sudo."
 	end
 end
 
