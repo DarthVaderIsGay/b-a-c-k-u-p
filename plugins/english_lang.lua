@@ -1,9 +1,4 @@
---------------------------------------------------
---                                              --
---            Developer: @AmirDark              --
---             Support: @DarkTeam               --
---                                              --
---------------------------------------------------
+
 
 local LANG = 'en'
 
@@ -37,8 +32,8 @@ local function run(msg, matches)
 		set_text(LANG, 'notAllowedSpamL', 'Spam is not allowed in this supergroup.')
 
 		-- bot.lua --
-		set_text(LANG, 'botOn', 'I\'m back. Let\'s do this')
-		set_text(LANG, 'botOff', 'Nothing to do here')
+		set_text(LANG, 'botOn', Bot is ON')
+		set_text(LANG, 'botOff', Bot is OFF')
 
 		-- settings.lua --
 		set_text(LANG, 'user', 'User')
@@ -315,12 +310,12 @@ local function run(msg, matches)
 		set_text(LANG, 'rules:1', '#rules: shows channel rules.')
 
 		if matches[1] == 'install' then
-			return 'ℹ️ English was successfully installed on your bot.'
+			return '✴ English was successfully installed on your bot.'
 		elseif matches[1] == 'update' then
-			return 'ℹ️ English was successfully updated on your bot.'
+			return '✴ English was successfully updated on your bot.'
 		end
 	else
-		return "🚫 This plugin requires sudo privileged user."
+		return "✖ This plugin requires sudo privileged user."
 	end
 end
 
