@@ -1,18 +1,3 @@
---------------------------------------------------
---      ____  ____ _____                        --
---     |    \|  _ )_   _|___ ____   __  __      --
---     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
---     |____/|____/ |_|\____/\_____|_/\/\_|     --
---                                              --
---------------------------------------------------
---                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
---                                              --
---            Translated by: @iicc1             --
---                                              --
---------------------------------------------------
-
 local LANG = 'es'
 
 local function run(msg, matches)
@@ -323,9 +308,9 @@ local function run(msg, matches)
 		set_text(LANG, 'rules:1', '#rules: muestra las reglas del chat.')
 		
 		if matches[1] == 'install' then
-			return 'ℹ️ El lenguaje español ha sido instalado en su base de datos.'
+			return '✴ El lenguaje español ha sido instalado en su base de datos.'
 		elseif matches[1] == 'update' then
-			return 'ℹ️ El lenguaje español ha sido actualizado en su base de datos.'
+			return '✴ El lenguaje español ha sido actualizado en su base de datos.'
 		end
 	else
 		return "Este plugin requiere permisos de sudo."
