@@ -1,9 +1,4 @@
---------------------------------------------------
---                                              --
---            Developer: @AmirDark              --
---             Support: @DarkTeam               --
---                                              --
---------------------------------------------------
+
 
 -- Checks if bot was disabled on specific chat
 local function is_channel_disabled( receiver )
@@ -24,13 +19,13 @@ local function enable_channel(receiver, to_id)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-		return lang_text(to_id, 'botOn')..' 😏'
+		return lang_text(to_id, 'botOn')..' 💀'
 	end
 	
 	_config.disabled_channels[receiver] = false
 
 	save_config()
-	return lang_text(to_id, 'botOn')..' 😏'
+	return lang_text(to_id, 'botOn')..' 💀'
 end
 
 local function disable_channel(receiver, to_id)
@@ -41,7 +36,7 @@ local function disable_channel(receiver, to_id)
 	_config.disabled_channels[receiver] = true
 
 	save_config()
-	return lang_text(to_id, 'botOff')..' 🚀'
+	return lang_text(to_id, 'botOff')..' 💀'
 end
 
 local function pre_process(msg)
@@ -73,7 +68,7 @@ local function run(msg, matches)
 			return disable_channel(receiver, msg.to.id)
 		end
 	else
-		return '🚫 '..lang_text(msg.to.id, 'require_sudo')
+		return '✖ '..lang_text(msg.to.id, 'require_sudo')
 	end
 end
 
