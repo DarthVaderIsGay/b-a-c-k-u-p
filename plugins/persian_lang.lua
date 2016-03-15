@@ -8,7 +8,7 @@ local function run(msg, matches)
         -- Translation version --
         -------------------------
         set_text(LANG, 'version', '0.1')
-        set_text(LANG, 'versionExtended', 'نسخه این ترمجه= نسخه 3.1')
+        set_text(LANG, 'versionExtended', 'نسخه این ترجمه= نسخه 3.1')
 
         -------------
         -- Plugins --
